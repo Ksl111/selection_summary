@@ -1,0 +1,265 @@
+=== PER-DATASET SUMMARY ===
+
+Per-dataset totals and contributions to combined Total_cutflow:
+  [1] Muon0 Run2024C            Total_cutflow=97505587      contribution=10.427%
+  [2] Muon1 Run2024C            Total_cutflow=97531998      contribution=10.430%
+  [3] Muon0 Run2024D            Total_cutflow=120787065     contribution=12.917%
+  [4] Muon1 Run2024D            Total_cutflow=120467371     contribution=12.883%
+  [5] Muon0 Run2024E            Total_cutflow=169640946     contribution=18.142%
+  [6] Muon0 Run2024E            Total_cutflow=169640946     contribution=18.142%
+  [7] Muon1 Run2024E            Total_cutflow=159510452     contribution=17.058%
+
+[1] Muon0 Run2024C
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_CR_TT_24C0
+DATASET       : /Muon0/Run2024C-MINIv6NANOv15-v1/NANOAOD
+DATASET nevents: 97505587 | dataset=/Muon0/Run2024C-MINIv6NANOv15-v1/NANOAOD
+DATASET nfiles : 103
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=97505587)
+FILES used for merging cutflow: 103 / found 103 txt files
+FILE indices (from filename): range 1..103 | missing in range: 0
+
+[2] Muon1 Run2024C
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_CR_TT_24C1
+DATASET       : /Muon1/Run2024C-MINIv6NANOv15-v1/NANOAOD
+DATASET nevents: 97531998 | dataset=/Muon1/Run2024C-MINIv6NANOv15-v1/NANOAOD
+DATASET nfiles : 94
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=97531998)
+FILES used for merging cutflow: 94 / found 94 txt files
+FILE indices (from filename): range 1..94 | missing in range: 0
+
+[3] Muon0 Run2024D
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_CR_TT_24D0
+DATASET       : /Muon0/Run2024D-MINIv6NANOv15-v1/NANOAOD
+DATASET nevents: 120787065 | dataset=/Muon0/Run2024D-MINIv6NANOv15-v1/NANOAOD
+DATASET nfiles : 180
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=120787065)
+FILES used for merging cutflow: 180 / found 180 txt files
+FILE indices (from filename): range 1..180 | missing in range: 0
+
+[4] Muon1 Run2024D
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_CR_TT_24D1
+DATASET       : /Muon1/Run2024D-MINIv6NANOv15-v1/NANOAOD
+DATASET nevents: 120467371 | dataset=/Muon1/Run2024D-MINIv6NANOv15-v1/NANOAOD
+DATASET nfiles : 168
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=120467371)
+FILES used for merging cutflow: 168 / found 168 txt files
+FILE indices (from filename): range 1..168 | missing in range: 0
+
+[5] Muon0 Run2024E
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_CR_TT_24E0
+DATASET       : /Muon0/Run2024E-MINIv6NANOv15-v1/NANOAOD
+DATASET nevents: 169640946 | dataset=/Muon0/Run2024E-MINIv6NANOv15-v1/NANOAOD
+DATASET nfiles : 255
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=169640946)
+FILES used for merging cutflow: 255 / found 255 txt files
+FILE indices (from filename): range 1..255 | missing in range: 0
+
+[6] Muon0 Run2024E
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_CR_TT_24E0
+DATASET       : /Muon0/Run2024E-MINIv6NANOv15-v1/NANOAOD
+DATASET nevents: 169640946 | dataset=/Muon0/Run2024E-MINIv6NANOv15-v1/NANOAOD
+DATASET nfiles : 255
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=169640946)
+FILES used for merging cutflow: 255 / found 255 txt files
+FILE indices (from filename): range 1..255 | missing in range: 0
+
+[7] Muon1 Run2024E
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_CR_TT_24E1
+DATASET       : /Muon1/Run2024E-MINIv6NANOv15-v1/NANOAOD
+DATASET nevents: 172848674 | dataset=/Muon1/Run2024E-MINIv6NANOv15-v1/NANOAOD
+DATASET nfiles : 171
+COVERAGE (Total_cutflow / dataset.nevents): 92.283%  (Total_cutflow=159510452)
+FILES used for merging cutflow: 161 / found 161 txt files
+FILE indices (from filename): range 1..171 | missing in range: 10
+MISSING indices: 50, 51, 73, 108, 112, 113, 117, 123, 131, 151
+
+=== COMBINED CUTFLOW (SUM over datasets) ===
+
+=== PER-CUT CONTRIBUTIONS BY DATASET ===
+For each cut: N_i and its fraction of SUM(N_i) across datasets for that cut
+
+[Total] SUM = 935084365
+  [1] Muon0 Run2024C            N = 97505587     contribution = 10.427%
+  [2] Muon1 Run2024C            N = 97531998     contribution = 10.430%
+  [3] Muon0 Run2024D            N = 120787065    contribution = 12.917%
+  [4] Muon1 Run2024D            N = 120467371    contribution = 12.883%
+  [5] Muon0 Run2024E            N = 169640946    contribution = 18.142%
+  [6] Muon0 Run2024E            N = 169640946    contribution = 18.142%
+  [7] Muon1 Run2024E            N = 159510452    contribution = 17.058%
+
+[kJson] SUM = 927043344
+  [1] Muon0 Run2024C            N = 96240317     contribution = 10.381%
+  [2] Muon1 Run2024C            N = 96268651     contribution = 10.384%
+  [3] Muon0 Run2024D            N = 119385430    contribution = 12.878%
+  [4] Muon1 Run2024D            N = 119068689    contribution = 12.844%
+  [5] Muon0 Run2024E            N = 168699540    contribution = 18.198%
+  [6] Muon0 Run2024E            N = 168699540    contribution = 18.198%
+  [7] Muon1 Run2024E            N = 158681177    contribution = 17.117%
+
+[kTrig] SUM = 347365077
+  [1] Muon0 Run2024C            N = 39268351     contribution = 11.305%
+  [2] Muon1 Run2024C            N = 39279671     contribution = 11.308%
+  [3] Muon0 Run2024D            N = 43363189     contribution = 12.483%
+  [4] Muon1 Run2024D            N = 43259857     contribution = 12.454%
+  [5] Muon0 Run2024E            N = 61971638     contribution = 17.840%
+  [6] Muon0 Run2024E            N = 61971638     contribution = 17.840%
+  [7] Muon1 Run2024E            N = 58250733     contribution = 16.769%
+
+[kOneMu] SUM = 222133492
+  [1] Muon0 Run2024C            N = 25072417     contribution = 11.287%
+  [2] Muon1 Run2024C            N = 25082614     contribution = 11.292%
+  [3] Muon0 Run2024D            N = 28179133     contribution = 12.686%
+  [4] Muon1 Run2024D            N = 28121438     contribution = 12.660%
+  [5] Muon0 Run2024E            N = 39364197     contribution = 17.721%
+  [6] Muon0 Run2024E            N = 39364197     contribution = 17.721%
+  [7] Muon1 Run2024E            N = 36949496     contribution = 16.634%
+
+[kOneEl] SUM = 25501586
+  [1] Muon0 Run2024C            N = 2955575      contribution = 11.590%
+  [2] Muon1 Run2024C            N = 2955008      contribution = 11.588%
+  [3] Muon0 Run2024D            N = 3199352      contribution = 12.546%
+  [4] Muon1 Run2024D            N = 3193063      contribution = 12.521%
+  [5] Muon0 Run2024E            N = 4488527      contribution = 17.601%
+  [6] Muon0 Run2024E            N = 4488527      contribution = 17.601%
+  [7] Muon1 Run2024E            N = 4221534      contribution = 16.554%
+
+[kMuPt] SUM = 23791487
+  [1] Muon0 Run2024C            N = 2766432      contribution = 11.628%
+  [2] Muon1 Run2024C            N = 2765356      contribution = 11.623%
+  [3] Muon0 Run2024D            N = 2994480      contribution = 12.586%
+  [4] Muon1 Run2024D            N = 2988253      contribution = 12.560%
+  [5] Muon0 Run2024E            N = 4175686      contribution = 17.551%
+  [6] Muon0 Run2024E            N = 4175686      contribution = 17.551%
+  [7] Muon1 Run2024E            N = 3925594      contribution = 16.500%
+
+[kMuEta] SUM = 23740475
+  [1] Muon0 Run2024C            N = 2760467      contribution = 11.628%
+  [2] Muon1 Run2024C            N = 2759320      contribution = 11.623%
+  [3] Muon0 Run2024D            N = 2988046      contribution = 12.586%
+  [4] Muon1 Run2024D            N = 2982011      contribution = 12.561%
+  [5] Muon0 Run2024E            N = 4166692      contribution = 17.551%
+  [6] Muon0 Run2024E            N = 4166692      contribution = 17.551%
+  [7] Muon1 Run2024E            N = 3917247      contribution = 16.500%
+
+[kMuID] SUM = 22622914
+  [1] Muon0 Run2024C            N = 2638402      contribution = 11.663%
+  [2] Muon1 Run2024C            N = 2636780      contribution = 11.655%
+  [3] Muon0 Run2024D            N = 2857322      contribution = 12.630%
+  [4] Muon1 Run2024D            N = 2851174      contribution = 12.603%
+  [5] Muon0 Run2024E            N = 3958535      contribution = 17.498%
+  [6] Muon0 Run2024E            N = 3958535      contribution = 17.498%
+  [7] Muon1 Run2024E            N = 3722166      contribution = 16.453%
+
+[kMuIso] SUM = 21936804
+  [1] Muon0 Run2024C            N = 2563605      contribution = 11.686%
+  [2] Muon1 Run2024C            N = 2562627      contribution = 11.682%
+  [3] Muon0 Run2024D            N = 2770706      contribution = 12.630%
+  [4] Muon1 Run2024D            N = 2764985      contribution = 12.604%
+  [5] Muon0 Run2024E            N = 3834657      contribution = 17.480%
+  [6] Muon0 Run2024E            N = 3834657      contribution = 17.480%
+  [7] Muon1 Run2024E            N = 3605567      contribution = 16.436%
+
+[kElPt] SUM = 4140354
+  [1] Muon0 Run2024C            N = 476111       contribution = 11.499%
+  [2] Muon1 Run2024C            N = 474178       contribution = 11.453%
+  [3] Muon0 Run2024D            N = 528669       contribution = 12.769%
+  [4] Muon1 Run2024D            N = 526817       contribution = 12.724%
+  [5] Muon0 Run2024E            N = 726431       contribution = 17.545%
+  [6] Muon0 Run2024E            N = 726431       contribution = 17.545%
+  [7] Muon1 Run2024E            N = 681717       contribution = 16.465%
+
+[kElEta] SUM = 3658106
+  [1] Muon0 Run2024C            N = 420625       contribution = 11.498%
+  [2] Muon1 Run2024C            N = 418895       contribution = 11.451%
+  [3] Muon0 Run2024D            N = 466479       contribution = 12.752%
+  [4] Muon1 Run2024D            N = 464704       contribution = 12.703%
+  [5] Muon0 Run2024E            N = 642076       contribution = 17.552%
+  [6] Muon0 Run2024E            N = 642076       contribution = 17.552%
+  [7] Muon1 Run2024E            N = 603251       contribution = 16.491%
+
+[kElIso] SUM = 978092
+  [1] Muon0 Run2024C            N = 113340       contribution = 11.588%
+  [2] Muon1 Run2024C            N = 112504       contribution = 11.502%
+  [3] Muon0 Run2024D            N = 123291       contribution = 12.605%
+  [4] Muon1 Run2024D            N = 123319       contribution = 12.608%
+  [5] Muon0 Run2024E            N = 171774       contribution = 17.562%
+  [6] Muon0 Run2024E            N = 171774       contribution = 17.562%
+  [7] Muon1 Run2024E            N = 162090       contribution = 16.572%
+
+[kElID] SUM = 293926
+  [1] Muon0 Run2024C            N = 34071        contribution = 11.592%
+  [2] Muon1 Run2024C            N = 33418        contribution = 11.370%
+  [3] Muon0 Run2024D            N = 37201        contribution = 12.657%
+  [4] Muon1 Run2024D            N = 37310        contribution = 12.694%
+  [5] Muon0 Run2024E            N = 51609        contribution = 17.559%
+  [6] Muon0 Run2024E            N = 51609        contribution = 17.559%
+  [7] Muon1 Run2024E            N = 48708        contribution = 16.572%
+
+[kJet] SUM = 225274
+  [1] Muon0 Run2024C            N = 25952        contribution = 11.520%
+  [2] Muon1 Run2024C            N = 25625        contribution = 11.375%
+  [3] Muon0 Run2024D            N = 28538        contribution = 12.668%
+  [4] Muon1 Run2024D            N = 28731        contribution = 12.754%
+  [5] Muon0 Run2024E            N = 39610        contribution = 17.583%
+  [6] Muon0 Run2024E            N = 39610        contribution = 17.583%
+  [7] Muon1 Run2024E            N = 37208        contribution = 16.517%
+
+[kJetID] SUM = 130627
+  [1] Muon0 Run2024C            N = 15040        contribution = 11.514%
+  [2] Muon1 Run2024C            N = 14724        contribution = 11.272%
+  [3] Muon0 Run2024D            N = 16518        contribution = 12.645%
+  [4] Muon1 Run2024D            N = 16608        contribution = 12.714%
+  [5] Muon0 Run2024E            N = 22998        contribution = 17.606%
+  [6] Muon0 Run2024E            N = 22998        contribution = 17.606%
+  [7] Muon1 Run2024E            N = 21741        contribution = 16.644%
+
+[kJetClean] SUM = 109426
+  [1] Muon0 Run2024C            N = 12598        contribution = 11.513%
+  [2] Muon1 Run2024C            N = 12289        contribution = 11.230%
+  [3] Muon0 Run2024D            N = 13946        contribution = 12.745%
+  [4] Muon1 Run2024D            N = 13855        contribution = 12.662%
+  [5] Muon0 Run2024E            N = 19284        contribution = 17.623%
+  [6] Muon0 Run2024E            N = 19284        contribution = 17.623%
+  [7] Muon1 Run2024E            N = 18170        contribution = 16.605%
+
+[kBJet] SUM = 50211
+  [1] Muon0 Run2024C            N = 5796         contribution = 11.543%
+  [2] Muon1 Run2024C            N = 5629         contribution = 11.211%
+  [3] Muon0 Run2024D            N = 6426         contribution = 12.798%
+  [4] Muon1 Run2024D            N = 6405         contribution = 12.756%
+  [5] Muon0 Run2024E            N = 8873         contribution = 17.671%
+  [6] Muon0 Run2024E            N = 8873         contribution = 17.671%
+  [7] Muon1 Run2024E            N = 8209         contribution = 16.349%
+
+[kOS] SUM = 174493
+  [1] Muon0 Run2024C            N = 0            contribution = 0.000%
+  [2] Muon1 Run2024C            N = 0            contribution = 0.000%
+  [3] Muon0 Run2024D            N = 28653        contribution = 16.421%
+  [4] Muon1 Run2024D            N = 28873        contribution = 16.547%
+  [5] Muon0 Run2024E            N = 39782        contribution = 22.799%
+  [6] Muon0 Run2024E            N = 39782        contribution = 22.799%
+  [7] Muon1 Run2024E            N = 37403        contribution = 21.435%
+
+SUM DATASET nevents: 948422587
+COVERAGE (Total_cutflow / SUM dataset.nevents): 98.594%  (Total_cutflow=935084365)
+
+Cut        N          dN          StepEff%  CumEff%   StepLoss%  CumLoss%  CumEff_DS%  Loss_DS%
+-----------------------------------------------------------------------------------------------
+Total      935084365                        100.000%               0.000%     98.594%    1.406%
+kJson      927043344    -8041021   99.140%   99.140%     0.860%    0.860%     97.746%    2.254%
+kTrig      347365077  -579678267   37.470%   37.148%    62.530%   62.852%     36.626%   63.374%
+kOneMu     222133492  -125231585   63.948%   23.755%    36.052%   76.245%     23.421%   76.579%
+kOneEl      25501586  -196631906   11.480%    2.727%    88.520%   97.273%      2.689%   97.311%
+kMuPt       23791487    -1710099   93.294%    2.544%     6.706%   97.456%      2.509%   97.491%
+kMuEta      23740475      -51012   99.786%    2.539%     0.214%   97.461%      2.503%   97.497%
+kMuID       22622914    -1117561   95.293%    2.419%     4.707%   97.581%      2.385%   97.615%
+kMuIso      21936804     -686110   96.967%    2.346%     3.033%   97.654%      2.313%   97.687%
+kElPt        4140354   -17796450   18.874%    0.443%    81.126%   99.557%      0.437%   99.563%
+kElEta       3658106     -482248   88.352%    0.391%    11.648%   99.609%      0.386%   99.614%
+kElIso        978092    -2680014   26.738%    0.105%    73.262%   99.895%      0.103%   99.897%
+kElID         293926     -684166   30.051%    0.031%    69.949%   99.969%      0.031%   99.969%
+kJet          225274      -68652   76.643%    0.024%    23.357%   99.976%      0.024%   99.976%
+kJetID        130627      -94647   57.986%    0.014%    42.014%   99.986%      0.014%   99.986%
+kJetClean     109426      -21201   83.770%    0.012%    16.230%   99.988%      0.012%   99.988%
+kBJet          50211      -59215   45.886%    0.005%    54.114%   99.995%      0.005%   99.995%
+kOS           174493      124282  347.519%    0.019%  -247.519%   99.981%      0.018%   99.982%

@@ -1,0 +1,96 @@
+=== PER-DATASET SUMMARY ===
+
+Per-dataset totals and contributions to combined Total_cutflow:
+  [1] TTto2L2Nu                 Total_cutflow=470123263     contribution=100.000%
+
+[1] TTto2L2Nu
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_CR_TT_TT
+DATASET       : /TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM
+DATASET nevents: 470123263 | dataset=/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM
+DATASET nfiles : 780
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=470123263)
+FILES used for merging cutflow: 780 / found 780 txt files
+FILE indices (from filename): range 1..780 | missing in range: 0
+WEIGHTS (summed over txt files; not included in cutflow table):
+  files with weights block: 780 / 780
+  sumGenWeight2_beforeCuts  : 3.092396e+12
+  sumGenWeight_beforeCuts   : 3.782011e+10
+
+=== COMBINED CUTFLOW (SUM over datasets) ===
+
+=== PER-CUT CONTRIBUTIONS BY DATASET ===
+For each cut: N_i and its fraction of SUM(N_i) across datasets for that cut
+
+[Total] SUM = 470123263
+  [1] TTto2L2Nu                 N = 470123263    contribution = 100.000%
+
+[kJson] SUM = 470123263
+  [1] TTto2L2Nu                 N = 470123263    contribution = 100.000%
+
+[kTrig] SUM = 175310838
+  [1] TTto2L2Nu                 N = 175310838    contribution = 100.000%
+
+[kOneMu] SUM = 74400532
+  [1] TTto2L2Nu                 N = 74400532     contribution = 100.000%
+
+[kOneEl] SUM = 33224282
+  [1] TTto2L2Nu                 N = 33224282     contribution = 100.000%
+
+[kMuPt] SUM = 32523172
+  [1] TTto2L2Nu                 N = 32523172     contribution = 100.000%
+
+[kMuEta] SUM = 32501711
+  [1] TTto2L2Nu                 N = 32501711     contribution = 100.000%
+
+[kMuID] SUM = 32213279
+  [1] TTto2L2Nu                 N = 32213279     contribution = 100.000%
+
+[kMuIso] SUM = 32161325
+  [1] TTto2L2Nu                 N = 32161325     contribution = 100.000%
+
+[kElPt] SUM = 24132467
+  [1] TTto2L2Nu                 N = 24132467     contribution = 100.000%
+
+[kElEta] SUM = 23059667
+  [1] TTto2L2Nu                 N = 23059667     contribution = 100.000%
+
+[kElIso] SUM = 17619211
+  [1] TTto2L2Nu                 N = 17619211     contribution = 100.000%
+
+[kElID] SUM = 14612908
+  [1] TTto2L2Nu                 N = 14612908     contribution = 100.000%
+
+[kJet] SUM = 14501238
+  [1] TTto2L2Nu                 N = 14501238     contribution = 100.000%
+
+[kJetID] SUM = 13590506
+  [1] TTto2L2Nu                 N = 13590506     contribution = 100.000%
+
+[kJetClean] SUM = 13453052
+  [1] TTto2L2Nu                 N = 13453052     contribution = 100.000%
+
+[kBJet] SUM = 9069064
+  [1] TTto2L2Nu                 N = 9069064      contribution = 100.000%
+
+SUM DATASET nevents: 470123263
+COVERAGE (Total_cutflow / SUM dataset.nevents): 100.000%  (Total_cutflow=470123263)
+
+Cut        N          dN          StepEff%  CumEff%   StepLoss%  CumLoss%  CumEff_DS%  Loss_DS%
+-----------------------------------------------------------------------------------------------
+Total      470123263                        100.000%               0.000%    100.000%    0.000%
+kJson      470123263           0  100.000%  100.000%     0.000%    0.000%    100.000%    0.000%
+kTrig      175310838  -294812425   37.290%   37.290%    62.710%   62.710%     37.290%   62.710%
+kOneMu      74400532  -100910306   42.439%   15.826%    57.561%   84.174%     15.826%   84.174%
+kOneEl      33224282   -41176250   44.656%    7.067%    55.344%   92.933%      7.067%   92.933%
+kMuPt       32523172     -701110   97.890%    6.918%     2.110%   93.082%      6.918%   93.082%
+kMuEta      32501711      -21461   99.934%    6.913%     0.066%   93.087%      6.913%   93.087%
+kMuID       32213279     -288432   99.113%    6.852%     0.887%   93.148%      6.852%   93.148%
+kMuIso      32161325      -51954   99.839%    6.841%     0.161%   93.159%      6.841%   93.159%
+kElPt       24132467    -8028858   75.036%    5.133%    24.964%   94.867%      5.133%   94.867%
+kElEta      23059667    -1072800   95.555%    4.905%     4.445%   95.095%      4.905%   95.095%
+kElIso      17619211    -5440456   76.407%    3.748%    23.593%   96.252%      3.748%   96.252%
+kElID       14612908    -3006303   82.937%    3.108%    17.063%   96.892%      3.108%   96.892%
+kJet        14501238     -111670   99.236%    3.085%     0.764%   96.915%      3.085%   96.915%
+kJetID      13590506     -910732   93.720%    2.891%     6.280%   97.109%      2.891%   97.109%
+kJetClean   13453052     -137454   98.989%    2.862%     1.011%   97.138%      2.862%   97.138%
+kBJet        9069064    -4383988   67.413%    1.929%    32.587%   98.071%      1.929%   98.071%
