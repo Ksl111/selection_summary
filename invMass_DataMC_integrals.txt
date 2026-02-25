@@ -1,0 +1,17 @@
+INTEGRALS
+Variable: invMass
+Histogram range: [12, 110]  nbins=40
+DATA integral (full): 6423 +- 80.1436210812
+MC   integral (full): 6162.34801052 +- 2.76288554318
+
+RATIO CONST FIT (Data/MC)
+Fit range: full histogram range
+Const fit: 1.0332461555 +- 0.0129487781012   (N_bins_used=40)
+
+MC NORMALIZATION TABLE
+Input lumi: 7.25 fb^-1 = 7250 pb^-1
+Definition: norm = lumi[pb^-1] * xsec[pb] / sumw
+
+MC name    Label            xsec [pb]  sumw          norm                L_eff [fb^-1]
+---------  ---------------  ---------  ------------  ------------------  -------------
+TTTo2L2Nu  t#bar{t} → 2l2ν  97.4488    3.782011e+10  1.868063842226e-05  388102       
