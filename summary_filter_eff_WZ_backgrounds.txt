@@ -1,0 +1,112 @@
+=== PER-DATASET SUMMARY ===
+
+Per-dataset totals and contributions to combined Total_cutflow:
+  [1] WZto2L2Q                  Total_cutflow=169192806     contribution=22.837%
+  [2] ZZto4L                    Total_cutflow=102534        contribution=0.014%
+  [3] ZZto2L2Q                  Total_cutflow=134914365     contribution=18.211%
+  [4] ZZto2L2Nu                 Total_cutflow=188715312     contribution=25.473%
+  [5] WZto3LNu                  Total_cutflow=247933133     contribution=33.466%
+
+[1] WZto2L2Q
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/dataset_WZ_test_onlyfinalcut_WZto2L2Q
+DATASET       : WZto2L2Q|/WZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+DATASET nevents: N/A (dasgoclient failed)
+DATASET nfiles : N/A (dasgoclient failed)
+COVERAGE: N/A (dataset.nevents unknown)  (Total_cutflow=169192806)
+FILES used for merging cutflow: 19 / found 19 txt files
+FILE indices (from filename): range 1..26 | missing in range: 7
+WEIGHTS (summed over txt files; not included in cutflow table):
+  files with weights block: 19 / 19
+  sumGenWeight2_beforeCuts  : 9.711055e+09
+  sumGenWeight_beforeCuts   : 1.280479e+09
+
+[2] ZZto4L
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/dataset_WZ_test_onlyfinalcut_ZZto4L
+DATASET       : ZZto4L|/ZZto4L_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+DATASET nevents: N/A (dasgoclient failed)
+DATASET nfiles : N/A (dasgoclient failed)
+COVERAGE: N/A (dataset.nevents unknown)  (Total_cutflow=102534)
+FILES used for merging cutflow: 1 / found 1 txt files
+FILE indices (from filename): range 28..28 | missing in range: 0
+WEIGHTS (summed over txt files; not included in cutflow table):
+  files with weights block: 1 / 1
+  sumGenWeight2_beforeCuts  : 2.024130e+05
+  sumGenWeight_beforeCuts   : 1.424620e+05
+
+[3] ZZto2L2Q
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/dataset_WZ_test_onlyfinalcut_ZZto2L2Q
+DATASET       : ZZto2L2Q|/ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+DATASET nevents: N/A (dasgoclient failed)
+DATASET nfiles : N/A (dasgoclient failed)
+COVERAGE: N/A (dataset.nevents unknown)  (Total_cutflow=134914365)
+FILES used for merging cutflow: 17 / found 17 txt files
+FILE indices (from filename): range 1..21 | missing in range: 4
+WEIGHTS (summed over txt files; not included in cutflow table):
+  files with weights block: 17 / 17
+  sumGenWeight2_beforeCuts  : 6.296370e+09
+  sumGenWeight_beforeCuts   : 9.159832e+08
+
+[4] ZZto2L2Nu
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/dataset_WZ_test_onlyfinalcut_ZZto2L2Nu
+DATASET       : ZZto2L2Nu|/ZZto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+DATASET nevents: N/A (dasgoclient failed)
+DATASET nfiles : N/A (dasgoclient failed)
+COVERAGE: N/A (dataset.nevents unknown)  (Total_cutflow=188715312)
+FILES used for merging cutflow: 23 / found 23 txt files
+FILE indices (from filename): range 1..23 | missing in range: 0
+WEIGHTS (summed over txt files; not included in cutflow table):
+  files with weights block: 23 / 23
+  sumGenWeight2_beforeCuts  : 2.014110e+08
+  sumGenWeight_beforeCuts   : 1.945290e+08
+
+[5] WZto3LNu 
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/dataset_WZ_light_WZ
+DATASET       : /WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+DATASET nevents: 248149069 | dataset=/WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM
+DATASET nfiles : 296
+COVERAGE (Total_cutflow / dataset.nevents): 99.913%  (Total_cutflow=247933133)
+FILES used for merging cutflow: 296 / found 296 txt files
+FILE indices (from filename): range 1..296 | missing in range: 0
+
+=== COMBINED CUTFLOW (SUM over datasets) ===
+
+=== PER-CUT CONTRIBUTIONS BY DATASET ===
+For each cut: N_i and its fraction of SUM(N_i) across datasets for that cut
+
+[Total] SUM = 740858150
+  [1] WZto2L2Q                  N = 169192806    contribution = 22.837%
+  [2] ZZto4L                    N = 102534       contribution = 0.014%
+  [3] ZZto2L2Q                  N = 134914365    contribution = 18.211%
+  [4] ZZto2L2Nu                 N = 188715312    contribution = 25.473%
+  [5] WZto3LNu                  N = 247933133    contribution = 33.466%
+
+[kBVeto] SUM = 157651
+  [1] WZto2L2Q                  N = 16           contribution = 0.010%
+  [2] ZZto4L                    N = 7            contribution = 0.004%
+  [3] ZZto2L2Q                  N = 16           contribution = 0.010%
+  [4] ZZto2L2Nu                 N = 399          contribution = 0.253%
+  [5] WZto3LNu                  N = 157213       contribution = 99.722%
+
+[kExactly3Good] SUM = 7262910
+  [1] WZto2L2Q                  N = 0            contribution = 0.000%
+  [2] ZZto4L                    N = 0            contribution = 0.000%
+  [3] ZZto2L2Q                  N = 0            contribution = 0.000%
+  [4] ZZto2L2Nu                 N = 0            contribution = 0.000%
+  [5] WZto3LNu                  N = 7262910      contribution = 100.000%
+
+[kHasOSSF] SUM = 7224224
+  [1] WZto2L2Q                  N = 0            contribution = 0.000%
+  [2] ZZto4L                    N = 0            contribution = 0.000%
+  [3] ZZto2L2Q                  N = 0            contribution = 0.000%
+  [4] ZZto2L2Nu                 N = 0            contribution = 0.000%
+  [5] WZto3LNu                  N = 7224224      contribution = 100.000%
+
+SUM DATASET nevents: N/A (missing ds_nevents for at least one dataset)
+COVERAGE: N/A  (Total_cutflow=740858150)
+
+Cut            N          dN          StepEff%   CumEff%   StepLoss%   CumLoss%  CumEff_DS%  Loss_DS%
+-----------------------------------------------------------------------------------------------------
+Total          740858150                         100.000%                0.000%         N/A       N/A
+kBVeto            157651  -740700499     0.021%    0.021%     99.979%   99.979%         N/A       N/A
+kExactly3Good    7262910     7105259  4606.955%    0.980%  -4506.955%   99.020%         N/A       N/A
+kHasOSSF         7224224      -38686    99.467%    0.975%      0.533%   99.025%         N/A       N/A
