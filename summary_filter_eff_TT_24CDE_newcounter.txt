@@ -1,0 +1,94 @@
+=== PER-DATASET SUMMARY ===
+
+Per-dataset totals and contributions to combined Total_cutflow:
+  [1] Muon0 Run2024C            Total_cutflow=97505587      contribution=49.993%
+  [2] Muon1 Run2024C            Total_cutflow=97531998      contribution=50.007%
+
+[1] Muon0 Run2024C
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_TT_new_counter_24C0
+DATASET       : /Muon0/Run2024C-MINIv6NANOv15-v1/NANOAOD
+DATASET nevents: 97505587 | dataset=/Muon0/Run2024C-MINIv6NANOv15-v1/NANOAOD
+DATASET nfiles : 103
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=97505587)
+FILES used for merging cutflow: 103 / found 103 txt files
+FILE indices (from filename): range 1..103 | missing in range: 0
+
+[2] Muon1 Run2024C
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_TT_new_counter_24C1
+DATASET       : /Muon1/Run2024C-MINIv6NANOv15-v1/NANOAOD
+DATASET nevents: 97531998 | dataset=/Muon1/Run2024C-MINIv6NANOv15-v1/NANOAOD
+DATASET nfiles : 94
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=97531998)
+FILES used for merging cutflow: 94 / found 94 txt files
+FILE indices (from filename): range 1..94 | missing in range: 0
+
+=== COMBINED CUTFLOW (SUM over datasets) ===
+
+=== PER-CUT CONTRIBUTIONS BY DATASET ===
+For each cut: N_i and its fraction of SUM(N_i) across datasets for that cut
+
+[Total] SUM = 195037585
+  [1] Muon0 Run2024C            N = 97505587     contribution = 49.993%
+  [2] Muon1 Run2024C            N = 97531998     contribution = 50.007%
+
+[kJSON] SUM = 192508968
+  [1] Muon0 Run2024C            N = 96240317     contribution = 49.993%
+  [2] Muon1 Run2024C            N = 96268651     contribution = 50.007%
+
+[kTrig] SUM = 78548022
+  [1] Muon0 Run2024C            N = 39268351     contribution = 49.993%
+  [2] Muon1 Run2024C            N = 39279671     contribution = 50.007%
+
+[kHasGoodMu] SUM = 68820884
+  [1] Muon0 Run2024C            N = 34405207     contribution = 49.992%
+  [2] Muon1 Run2024C            N = 34415677     contribution = 50.008%
+
+[kHasGoodEl] SUM = 165549
+  [1] Muon0 Run2024C            N = 83154        contribution = 50.229%
+  [2] Muon1 Run2024C            N = 82395        contribution = 49.771%
+
+[kExactly1GoodMu] SUM = 159999
+  [1] Muon0 Run2024C            N = 80329        contribution = 50.206%
+  [2] Muon1 Run2024C            N = 79670        contribution = 49.794%
+
+[kExactly1GoodEl] SUM = 159106
+  [1] Muon0 Run2024C            N = 79854        contribution = 50.189%
+  [2] Muon1 Run2024C            N = 79252        contribution = 49.811%
+
+[kOS] SUM = 126096
+  [1] Muon0 Run2024C            N = 63099        contribution = 50.040%
+  [2] Muon1 Run2024C            N = 62997        contribution = 49.960%
+
+[kJet] SUM = 125781
+  [1] Muon0 Run2024C            N = 62939        contribution = 50.039%
+  [2] Muon1 Run2024C            N = 62842        contribution = 49.961%
+
+[kJetID] SUM = 89678
+  [1] Muon0 Run2024C            N = 44889        contribution = 50.056%
+  [2] Muon1 Run2024C            N = 44789        contribution = 49.944%
+
+[kJetClean] SUM = 80099
+  [1] Muon0 Run2024C            N = 40163        contribution = 50.142%
+  [2] Muon1 Run2024C            N = 39936        contribution = 49.858%
+
+[kBJet] SUM = 42109
+  [1] Muon0 Run2024C            N = 21200        contribution = 50.346%
+  [2] Muon1 Run2024C            N = 20909        contribution = 49.654%
+
+SUM DATASET nevents: 195037585
+COVERAGE (Total_cutflow / SUM dataset.nevents): 100.000%  (Total_cutflow=195037585)
+
+Cut              N          dN          StepEff%  CumEff%   StepLoss%  CumLoss%  CumEff_DS%  Loss_DS%
+-----------------------------------------------------------------------------------------------------
+Total            195037585                        100.000%               0.000%    100.000%    0.000%
+kJSON            192508968    -2528617   98.704%   98.704%     1.296%    1.296%     98.704%    1.296%
+kTrig             78548022  -113960946   40.802%   40.273%    59.198%   59.727%     40.273%   59.727%
+kHasGoodMu        68820884    -9727138   87.616%   35.286%    12.384%   64.714%     35.286%   64.714%
+kHasGoodEl          165549   -68655335    0.241%    0.085%    99.759%   99.915%      0.085%   99.915%
+kExactly1GoodMu     159999       -5550   96.648%    0.082%     3.352%   99.918%      0.082%   99.918%
+kExactly1GoodEl     159106        -893   99.442%    0.082%     0.558%   99.918%      0.082%   99.918%
+kOS                 126096      -33010   79.253%    0.065%    20.747%   99.935%      0.065%   99.935%
+kJet                125781        -315   99.750%    0.064%     0.250%   99.936%      0.064%   99.936%
+kJetID               89678      -36103   71.297%    0.046%    28.703%   99.954%      0.046%   99.954%
+kJetClean            80099       -9579   89.318%    0.041%    10.682%   99.959%      0.041%   99.959%
+kBJet                42109      -37990   52.571%    0.022%    47.429%   99.978%      0.022%   99.978%
