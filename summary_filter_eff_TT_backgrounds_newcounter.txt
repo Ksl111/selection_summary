@@ -1,0 +1,76 @@
+=== PER-DATASET SUMMARY ===
+
+Per-dataset totals and contributions to combined Total_cutflow:
+  [1] TTto2L2Nu                 Total_cutflow=470123263     contribution=100.000%
+
+[1] TTto2L2Nu
+DIR           : /eos/user/k/kslizhev/aDecember/2WEEK/final_TT_new_counter_TT
+DATASET       : /TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM
+DATASET nevents: 470123263 | dataset=/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM
+DATASET nfiles : 780
+COVERAGE (Total_cutflow / dataset.nevents): 100.000%  (Total_cutflow=470123263)
+FILES used for merging cutflow: 780 / found 780 txt files
+FILE indices (from filename): range 1..780 | missing in range: 0
+WEIGHTS (summed over txt files; not included in cutflow table):
+  files with weights block: 780 / 780
+  sumGenWeight2_beforeCuts  : 3.092396e+12
+  sumGenWeight_beforeCuts   : 3.782011e+10
+
+=== COMBINED CUTFLOW (SUM over datasets) ===
+
+=== PER-CUT CONTRIBUTIONS BY DATASET ===
+For each cut: N_i and its fraction of SUM(N_i) across datasets for that cut
+
+[Total] SUM = 470123263
+  [1] TTto2L2Nu                 N = 470123263    contribution = 100.000%
+
+[kJSON] SUM = 470123263
+  [1] TTto2L2Nu                 N = 470123263    contribution = 100.000%
+
+[kTrig] SUM = 175310838
+  [1] TTto2L2Nu                 N = 175310838    contribution = 100.000%
+
+[kHasGoodMu] SUM = 169883713
+  [1] TTto2L2Nu                 N = 169883713    contribution = 100.000%
+
+[kHasGoodEl] SUM = 46456683
+  [1] TTto2L2Nu                 N = 46456683     contribution = 100.000%
+
+[kExactly1GoodMu] SUM = 46217802
+  [1] TTto2L2Nu                 N = 46217802     contribution = 100.000%
+
+[kExactly1GoodEl] SUM = 46024299
+  [1] TTto2L2Nu                 N = 46024299     contribution = 100.000%
+
+[kOS] SUM = 45582179
+  [1] TTto2L2Nu                 N = 45582179     contribution = 100.000%
+
+[kJet] SUM = 45581379
+  [1] TTto2L2Nu                 N = 45581379     contribution = 100.000%
+
+[kJetID] SUM = 43903358
+  [1] TTto2L2Nu                 N = 43903358     contribution = 100.000%
+
+[kJetClean] SUM = 43617767
+  [1] TTto2L2Nu                 N = 43617767     contribution = 100.000%
+
+[kBJet] SUM = 30395160
+  [1] TTto2L2Nu                 N = 30395160     contribution = 100.000%
+
+SUM DATASET nevents: 470123263
+COVERAGE (Total_cutflow / SUM dataset.nevents): 100.000%  (Total_cutflow=470123263)
+
+Cut              N          dN          StepEff%  CumEff%   StepLoss%  CumLoss%  CumEff_DS%  Loss_DS%
+-----------------------------------------------------------------------------------------------------
+Total            470123263                        100.000%               0.000%    100.000%    0.000%
+kJSON            470123263           0  100.000%  100.000%     0.000%    0.000%    100.000%    0.000%
+kTrig            175310838  -294812425   37.290%   37.290%    62.710%   62.710%     37.290%   62.710%
+kHasGoodMu       169883713    -5427125   96.904%   36.136%     3.096%   63.864%     36.136%   63.864%
+kHasGoodEl        46456683  -123427030   27.346%    9.882%    72.654%   90.118%      9.882%   90.118%
+kExactly1GoodMu   46217802     -238881   99.486%    9.831%     0.514%   90.169%      9.831%   90.169%
+kExactly1GoodEl   46024299     -193503   99.581%    9.790%     0.419%   90.210%      9.790%   90.210%
+kOS               45582179     -442120   99.039%    9.696%     0.961%   90.304%      9.696%   90.304%
+kJet              45581379        -800   99.998%    9.696%     0.002%   90.304%      9.696%   90.304%
+kJetID            43903358    -1678021   96.319%    9.339%     3.681%   90.661%      9.339%   90.661%
+kJetClean         43617767     -285591   99.350%    9.278%     0.650%   90.722%      9.278%   90.722%
+kBJet             30395160   -13222607   69.685%    6.465%    30.315%   93.535%      6.465%   93.535%
